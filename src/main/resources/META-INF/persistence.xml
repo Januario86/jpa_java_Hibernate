@@ -8,6 +8,7 @@
 	<persistence-unit name="contas">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>br.com.januario.jpa.modelo.Conta</class>
+		<class>br.com.januario.jpa.modelo.Movimentacao</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
